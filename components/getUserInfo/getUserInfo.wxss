@@ -1,0 +1,47 @@
+/* components/getUserInfo/getUserInfo.wxss */
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.box{
+    background: #fff;
+    border-radius: 10rpx;
+    width: 70%;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 30rpx;
+}
+.title{
+    font-size: 36rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+}
+.context{
+    font-size: 32rpx;
+    color: #848484;
+}
+.button{
+    width: 100%;
+    font-size: 36rpx;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: #4ab335;
+    background: #fff;
+    border-top: 1px solid #ebebeb;
+    box-sizing: border-box;
+    margin-top: 30rpx;
+}
+.button::after{
+    border: none;
+}

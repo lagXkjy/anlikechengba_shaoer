@@ -1,0 +1,11 @@
+<!-- Kecheng/part/part.wxml -->
+<view class="wrapper">
+    <block wx:for='{{partList}}' wx:key='AvatarUrl'>
+        <view class='list'>
+            <image class="list-image" mode="aspectFit" src="{{item.AvatarUrl}}" />
+            <view class="list-context">
+                <text>{{item.Name}}</text>
+            </view>
+        </view>
+    </block>
+</view>

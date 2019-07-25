@@ -1,0 +1,144 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.2",
+	"appid": "wx4b30f8070de04ee8",
+	"projectname": "kechengba_shaoer",
+	"cloudfunctionTemplateRoot": "",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "sharethreewhite",
+					"pathName": "Kecheng/ThreeWhite/ThreeWhite",
+					"query": "yu=0&cid=1085&copenid=ooigF0W795bYMPWQdUgjh-qq4t3I&numbertime=201882892043"
+				},
+				{
+					"id": 1,
+					"name": "Ongroup",
+					"pathName": "Kecheng/OnGroup/OnGroup",
+					"query": "gid=1072&kid=0"
+				},
+				{
+					"id": 2,
+					"name": "campus",
+					"pathName": "angli/campus/campus",
+					"query": "campusId=111"
+				},
+				{
+					"id": -1,
+					"name": "order",
+					"pathName": "Kecheng/Ouder/Ouder",
+					"query": "kid=1215&gid=0&types=11&co=1 "
+				},
+				{
+					"id": 4,
+					"name": "searchcampus",
+					"pathName": "angli/searchcampus/searchcampus",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "quan",
+					"pathName": "newpage/Twoenvelope/Twoenvelope",
+					"query": "esid=14&chai=0"
+				},
+				{
+					"id": -1,
+					"name": "combo",
+					"pathName": "angli/combo/combo",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "choose",
+					"pathName": "angli/choose/choose",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "useQuan",
+					"pathName": "angli/useQuan/useQuan",
+					"query": ""
+				},
+				{
+					"id": 9,
+					"name": "tcDetail",
+					"pathName": "angli/tcDetail/tcDetail",
+					"query": "id=9&yu=0&copenid=0"
+				},
+				{
+					"id": 10,
+					"name": "share-Whiteenvolope",
+					"pathName": "newpage/Whiteenvelope/Whiteenvelope",
+					"query": "esid=15&copenid=ooigF0W795bYMPWQdUgjh-qq4t3I&numbertime=2018828103121"
+				},
+				{
+					"id": -1,
+					"name": "优惠",
+					"pathName": "Kecheng/Group/Group",
+					"query": ""
+				},
+				{
+					"id": 12,
+					"name": "friendspell",
+					"pathName": "Kecheng/friendspell/friendspell",
+					"query": "gid=1176"
+				},
+				{
+					"id": -1,
+					"name": "佣金",
+					"pathName": "distribution/TiXian/shouru",
+					"query": ""
+				},
+				{
+					"id": 14,
+					"name": "分销元购买",
+					"pathName": "distribution/Detail/Detail",
+					"query": "id=1857&openid=oR_b_0J2XNAhvhx34P9qIPO3d4D0"
+				},
+				{
+					"id": -1,
+					"name": "套餐班分享",
+					"pathName": "angli/tcDetail/tcDetail",
+					"query": "id=1785&yu=0&copenid=0"
+				}
+			]
+		}
+	}
+}

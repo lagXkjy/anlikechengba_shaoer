@@ -1,0 +1,23 @@
+/* Kecheng/part/part.wxss */
+.wrapper{
+    width: 100%;
+    background: #ffffff;
+    margin-top: 20rpx;
+}
+.list{
+    box-sizing: border-box;
+    padding: 20rpx 30rpx;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30rpx;
+}
+.list-image{
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 50%;
+}
+.list-context{
+    width: 80%;
+}

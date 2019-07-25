@@ -1,0 +1,9 @@
+<!--components/getUserInfo/getUserInfo.wxml-->
+<view wx:if='{{isShow}}' class="wrapper">
+    <view class='box'>
+        <view class='title'>获取微信授权信息</view>
+        <view class="context">微信登录需要获取用户信息，</view>
+        <view class="context">请点击授权</view>
+        <button class="button" open-type="getUserInfo" bindgetuserinfo='getUserInfo'>点击授权</button>
+    </view>
+</view>

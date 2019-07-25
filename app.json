@@ -1,0 +1,112 @@
+{
+  "pages": [
+    "Kecheng/Home/Home",
+    "Kecheng/part/part",
+    "Kecheng/TaoCan/TaoCan",
+    "Kecheng/TaoOuder/TaoOuder",
+    "Kecheng/Taosuccess/Taosuccess",
+    "Kecheng/Yousuccess/Yousuccess",
+    "Kecheng/Shisuccess/Shisuccess",
+    "Kecheng/ThreeWhite/ThreeWhite",
+    "distribution/Apply/Apply",
+    "pages/index/index",
+    "distribution/LISTL/LIST",
+    "distribution/Detail/Detail",
+    "distribution/disCourse/disCourse",
+    "distribution/DetailList/DetailList",
+    "distribution/edit/edit",
+    "distribution/DistOuder/DistOuder",
+    "distribution/Distsuccess/Distsuccess",
+    "distribution/TiXian/shouru",
+    "pages/Home/Home",
+    "distribution/LIST/LIST",
+    "distribution/EWei/EWei",
+    "distribution/XiaJia/XiaJia",
+    "distribution/Incomedetails/Incomedetails",
+    "newpage/courses/courses",
+    "newpage/coupons/coupons",
+    "newpage/envelopeT/envelopeT",
+    "newpage/MyBao/MyBao",
+    "newpage/envelope/envelope",
+    "newpage/redCourse/redCourse",
+    "Kecheng/YuDetail/YuDetail",
+    "newpage/Aready/Aready",
+    "Kecheng/ShiTing/ShiTing",
+    "Kecheng/ShiTingOuder/ShiTingOuder",
+    "Kecheng/YiYuan/YiYuan",
+    "Kecheng/keke/keke",
+    "Kecheng/YouHui/YouHui",
+    "Kecheng/friendspell/friendspell",
+    "Kecheng/success/success",
+    "Kecheng/Threebargaining/Threebargaining",
+    "Kecheng/Twobargaining/Twobargaining",
+    "Kecheng/Onebargaining/Onebargaining",
+    "Kecheng/OnGroup/OnGroup",
+    "Kecheng/Ouder/Ouder",
+    "Kecheng/YouOuder/YouOuder",
+    "Kecheng/Group/Group",
+    "Kecheng/Detail/Detail",
+    "Kecheng/WaitGroup/WaitGroup",
+    "Kecheng/falied/falied",
+    "Kecheng/rule/rule",
+    "pages/logs/logs",
+    "newpage/model/model",
+    "newpage/WhiteenvelopeT/WhiteenvelopeT",
+    "newpage/Twoenvelope/Twoenvelope",
+    "newpage/Whiteenvelope/Whiteenvelope",
+    "newpage/answer/answer",
+    "newpage/Coupsuccess/Coupsuccess",
+    "newpage/CoupOuder/CoupOuder",
+    "newpage/Coupcour/Coupcour",
+    "newpage/Redsuccess/Redsuccess",
+    "newpage/redOuder/redOuder",
+    "newpage/redcour/redcour",
+    "newpage/customer/customer",
+    "newpage/succeed/succeed",
+    "angli/campus/campus",
+    "angli/searchcampus/searchcampus",
+    "angli/choose/choose",
+    "angli/tcOuder/tcOuder",
+    "angli/useQuan/useQuan",
+    "angli/useShareQuan/useShareQuan",
+    "angli/tcDetail/tcDetail",
+    "angli/combo/combo"
+  ],
+  "tabBar": {
+    "color": "#acacac",
+    "selectedColor": "#",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "Kecheng/Home/Home",
+        "text": "课程",
+        "iconPath": "images/icon_component11.png",
+        "selectedIconPath": "images/book-y.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我",
+        "iconPath": "images/icon_component2.png",
+        "selectedIconPath": "images/me-y.png"
+      }
+    ]
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#393a3d",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "昂立少儿教育",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "usingComponents": {
+    "get-user-info": "/components/getUserInfo/getUserInfo"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序获取您的位置，用于更好的为您提供服务"
+    }
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}
